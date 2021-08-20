@@ -14,4 +14,5 @@ module.exports = (client) => {
     console.log(`phantom ©`);
     console.log(`phantom ©`);
     console.log(`phantom ©`);
+    client.user.setActivity(`serving ${client.guilds.cache.size} servers`);
 }
